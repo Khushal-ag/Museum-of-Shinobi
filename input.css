@@ -65,4 +65,8 @@ body {
   #mainNavbar .nav-link {
     color: #faa307;
   }
+  .info h2 {
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+  }
 }
