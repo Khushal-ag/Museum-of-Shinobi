@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap");
+
+body {
+  background: #252422;
+  font-family: "Nunito", sans-serif;
+}
+
+#mainNavbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#mainNavbar .nav-link {
+  color: white;
+}
+#mainNavbar .nav-link:hover {
+  color: #eb5e28;
+}
+#mainNavbar .navbar-brand {
+  color: #eb5e28;
+  font-size: 1.5rem;
+}
+#headingGroup span {
+  color: #eb5e28;
+}
+#headingGroup {
+  font-weight: 100;
+  font-size: 4rem;
+}
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.info h2 {
+  color: #eb5e28;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.info p {
+  color: #a7c957;
+  font-weight: 100;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+.navbar.scrolled {
+  background: #22223b;
+  transition: background 200ms;
+}
+.navbar-toggler-icon {
+  color: #faa307;
+}
+@media (max-width: 1220px) {
+  #headingGroup {
+    font-size: 3rem;
+  }
+  .info h2 {
+    font-size: 2rem;
+  }
+
+  .info p {
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+}
+@media (max-width: 992px) {
+  #mainNavbar .nav-link {
+    color: #faa307;
+  }
+}
